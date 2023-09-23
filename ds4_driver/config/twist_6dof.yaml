@@ -1,11 +1,11 @@
 ds4_twist:
   ros__parameters:
-    stamped: true
+    stamped: false
     inputs:
       linear:
-        x: axis_left_y
-        y: axis_left_x
-        z: axis_r2 - axis_l2
+        x: axis_r2
+        y: axis_l2
+        # z: 
       angular:
         x: -axis_right_x
         y: axis_right_y
